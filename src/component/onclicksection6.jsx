@@ -3,10 +3,42 @@
 const products = [
   {
     id: 1,
+    name: 'Salwar Kameez Georgette Based',
+    href: '#',
+    price: '₹1999',
+    imageSrc: 'https://assets0.mirraw.com/images/6967785/image_long.jpeg?1556102907',
+    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+  },
+  {
+    id: 2,
+    name: 'Embroidered Silk Suit',
+    href: '#',
+    price: '₹1359',
+    imageSrc: 'https://assets0.mirraw.com/images/10737509/12115_NEVY_BLUE_long_webp.webp?1662373515',
+    imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+  },
+  {
+    id: 3,
+    name: 'Salwar Kameez Georgette Based',
+    href: '#',
+    price: '₹1999',
+    imageSrc: 'https://assets0.mirraw.com/images/10737500/12112_LIGHT_GREEN_long_webp.webp?1662373233',
+    imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+  },
+  {
+    id: 4,
+    name: 'Green Embroidered Silk Suit',
+    href: '#',
+    price: '₹2999',
+    imageSrc: 'https://assets0.mirraw.com/images/7324456/image_long_webp.webp?1566803171',
+    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+  },
+  {
+    id: 1,
     name: 'Earthen Bottle',
     href: '#',
     price: '$48',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+    imageSrc: 'https://tse4.mm.bing.net/th?id=OIP.UZTCoyqjYIy05EjzLsaWuAHaHa&pid=Api&P=0',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
   {
@@ -14,7 +46,7 @@ const products = [
     name: 'Nomad Tumbler',
     href: '#',
     price: '$35',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+    imageSrc: 'https://tse3.mm.bing.net/th?id=OIP.b6G49AosBzOHflP0y_OGsgHaHa&pid=Api&P=0',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
   {
@@ -22,7 +54,7 @@ const products = [
     name: 'Focus Paper Refill',
     href: '#',
     price: '$89',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+    imageSrc: 'https://tse1.mm.bing.net/th?id=OIP.hE7MAbQ-GNaAqbnZQimxlgHaHa&pid=Api&P=0',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
   {
@@ -30,7 +62,7 @@ const products = [
     name: 'Machined Mechanical Pencil',
     href: '#',
     price: '$35',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+    imageSrc: 'https://tse4.mm.bing.net/th?id=OIP.pOjjmQjjg3lPO4Td-Zz2tQHaHl&pid=Api&P=0',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
   {
@@ -65,76 +97,13 @@ const products = [
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
   },
-  {
-    id: 1,
-    name: 'Earthen Bottle',
-    href: '#',
-    price: '$48',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-  },
-  {
-    id: 2,
-    name: 'Nomad Tumbler',
-    href: '#',
-    price: '$35',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-    imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
-  },
-  {
-    id: 3,
-    name: 'Focus Paper Refill',
-    href: '#',
-    price: '$89',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-    imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
-  },
-  {
-    id: 4,
-    name: 'Machined Mechanical Pencil',
-    href: '#',
-    price: '$35',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-  },
-  {
-    id: 1,
-    name: 'Earthen Bottle',
-    href: '#',
-    price: '$48',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-  },
-  {
-    id: 2,
-    name: 'Nomad Tumbler',
-    href: '#',
-    price: '$35',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-    imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
-  },
-  {
-    id: 3,
-    name: 'Focus Paper Refill',
-    href: '#',
-    price: '$89',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-    imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
-  },
-  {
-    id: 4,
-    name: 'Machined Mechanical Pencil',
-    href: '#',
-    price: '$35',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-  },
+  
   // More products...
 ]
 
 
 import { useNavigate } from "react-router-dom"
-export default function Onclickkurta() {
+export default function Onclicksection6() {
 
 let Navigate=useNavigate()
 return(

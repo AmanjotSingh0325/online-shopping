@@ -15,8 +15,6 @@ import Linksuit2 from './component/linksuit2'
 import about from './component/about'
 import Linksuit3 from './component/linksuit3'
 import Linksuit4 from './component/linksuit4'
-import Onclickkurta from './component/onclickkurta'
-import Onclickturban from './component/onclickturban'
 import Linksuit5 from './component/linksuit5'
 import Linksuit6 from './component/linksuit6'
 import Linksuit7 from './component/linksuit7'
@@ -26,6 +24,7 @@ import Linksuit10 from './component/linksuit10'
 import Linksuit11 from './component/linksuit11'
 import Linksuit12 from './component/linksuit12'
 import { Contact } from './component/contact'
+import Onclicksection6 from './component/onclicksection6'
 
 
 function App() {
@@ -66,9 +65,8 @@ return (
 
 
 
-<Route path="/onclickkurta" element={<Onclickkurta></Onclickkurta>}/>
+<Route path="/onclicksection6" element={<Onclicksection6></Onclicksection6>}/>
 
-<Route path="/onclickturban" element={<Onclickturban></Onclickturban>}/>
 
 <Route path="/about" element={<about></about>}/>
 <Route path="/contact" element={<Contact></Contact>}/>
