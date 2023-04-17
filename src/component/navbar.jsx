@@ -5,6 +5,8 @@ import {Link, useNavigate} from 'react-router-dom';
 import { Contact } from './contact';
 
 
+
+
 const navigation = [
   { name: 'HOME', href: '/', current: false },
   { name: 'ABOUT US', href: '/about', current: false },

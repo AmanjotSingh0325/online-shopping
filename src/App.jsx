@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './component/navbar'
-import { Navbar1 } from './component/navbar1'
+
 import Section1 from './component/section1'
 import Section5 from './component/section5'
 import Section2 from './component/section2'
@@ -25,6 +25,7 @@ import Linksuit9 from './component/linksuit9'
 import Linksuit10 from './component/linksuit10'
 import Linksuit11 from './component/linksuit11'
 import Linksuit12 from './component/linksuit12'
+import { Contact } from './component/contact'
 
 
 function App() {
@@ -70,6 +71,7 @@ return (
 <Route path="/onclickturban" element={<Onclickturban></Onclickturban>}/>
 
 <Route path="/about" element={<about></about>}/>
+<Route path="/contact" element={<Contact></Contact>}/>
 
 </Routes>
  <Flowfooter></Flowfooter>
