@@ -25,6 +25,8 @@ import Linksuit11 from './component/linksuit11'
 import Linksuit12 from './component/linksuit12'
 import { Contact } from './component/contact'
 import Onclicksection6 from './component/onclicksection6'
+import Nav1 from './component/navbar1'
+import Footer1 from './component/footer1'
 
 
 function App() {
@@ -32,7 +34,8 @@ function App() {
 return (
     <>
  <BrowserRouter>
- <Navbar></Navbar> 
+ {/* <Navbar></Navbar>  */}
+ <Nav1></Nav1>
  <Routes>
 <Route path="/" element={<Home></Home>}/>
 <Route path="/linksuit1" element={<Linksuit1></Linksuit1>}/>
@@ -72,6 +75,7 @@ return (
 <Route path="/contact" element={<Contact></Contact>}/>
 
 </Routes>
+<Footer1></Footer1>
  <Flowfooter></Flowfooter>
  </BrowserRouter>
     
